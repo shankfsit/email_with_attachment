@@ -18,7 +18,7 @@ if (isset($_FILES) && (bool) $_FILES) {
 
     // email fields: to, from, subject, and so on
     $to = $_POST['email'];
-    $from = "shankar.kundi@fission.it";
+    $from = "";
     $subject = $_POST['sub'];
     $message = $_POST['msg'];
     $headers = "From: $from";
